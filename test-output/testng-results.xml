@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-07T12:18:05 SGT" name="Default Suite" finished-at="2024-02-07T12:18:07 SGT" duration-ms="2207">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T12:18:05 SGT" name="RestAssuredProject1" finished-at="2024-02-07T12:18:07 SGT" duration-ms="2207">
+      <class name="APITest.TestResponse1">
+        <test-method signature="checkResponse()[pri:0, instance:APITest.TestResponse1@17f7cd29]" started-at="2024-02-07T12:18:05 SGT" name="checkResponse" finished-at="2024-02-07T12:18:07 SGT" duration-ms="2069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponse -->
+        <test-method signature="checkStatusCode()[pri:0, instance:APITest.TestResponse1@17f7cd29]" started-at="2024-02-07T12:18:07 SGT" name="checkStatusCode" finished-at="2024-02-07T12:18:07 SGT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+      </class> <!-- APITest.TestResponse1 -->
+    </test> <!-- RestAssuredProject1 -->
+  </suite> <!-- Default Suite -->
+</testng-results>

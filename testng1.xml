@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="create user">
+        <classes>
+            <class name="APIChaning.CreateUser">
+                <methods>
+                <include name="test_createUser"/>
+             </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name="Get User Detail">
+        <classes>
+            <class name="APIChaning.GetUser">
+                <methods><include name="getUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Update User Detail">
+        <classes>
+            <class name="APIChaning.UpdateUser">
+                <methods><include name="testUpdateUser"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+    <test name="Delete User">
+        <classes>
+            <class name="APIChaning.DeleteUser">
+                <methods>
+                    <include name="testDeleteUser"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
